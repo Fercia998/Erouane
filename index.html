@@ -1,0 +1,496 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erouane Nguema</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">Erouane Blog</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Simplement</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Pour te</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Dire</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Que ta</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Femme</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">T'aime</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./" class="list-link">Plus</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="" class="list-link">Que tout</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Plus</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Que tout</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="Que veux tu rechercher?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Appuies sur ESC ou ferme.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Souvenirs</span>
+                    </h3>
+                    <span class="headline-description">Pour le meilleur des partenaires et mari du monde...</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/erouane (3).jpeg" alt="" class="article-image">
+                    <span class="article-category">Jour détente</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#128514</span>
+                            <span>&#x2764</span>
+
+
+                        </div>
+
+                        <h3 class="title article-title">Une journée simple</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/nguema (5).jpeg" alt="" class="article-image">
+                    <span class="article-category">Travail</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Fev 6th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#x2764</span>
+                            <span>&#x2764</span>
+                            <span>&#x2764</span>
+
+
+                        </div>
+
+                        <h3 class="title article-title">Un jour de travail</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-3">
+                    <iframe src="./assets/images/featured/nguema (1).mp4" frameborder="0" class="article-image"></iframe>
+                    <span class="article-category">Amour</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#x2764</span>
+                            <span>&#x2764</span>
+                            <span>&#x2764</span>
+
+
+                        </div>
+
+                        <h3 class="title article-title">Nos moments magiques</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Ton amoureuse</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/featured/nguema (10).jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Avril 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#128514</span>
+                            <span>&#x2764</span>
+                        </div>
+
+                        <h3 class="title article-title">Une journée chez nous</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/featured/koumba (2).jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#x2764</span>
+                            <span>&#x2764</span>
+                            <span>&#x2764</span>
+                        </div>
+
+                        <h3 class="title article-title">En route pour le job</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/featured/koumba (3).jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>05 Fev 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                        </div>
+
+                        <h3 class="title article-title">journée relaxe</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/featured/koumba (5).jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                        </div>
+
+                        <h3 class="title article-title">Juste un sourire</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/featured/koumba (1).jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>25 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>&#10084</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                        </div>
+
+                        <h3 class="title article-title">Moments heureux</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Galerie</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/featured/nguema (9).jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>25 Oct 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>&#10084</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                            <span>&#128514</span>
+                            </div>
+                            <h3 class="title article-title">Vamos a la playa</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/featured/nguema (1).jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>25 jui 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                            </div>
+                            <h3 class="title article-title">Sogara</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/featured/erouane (1).jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>26 Aug 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                            </div>
+                            <h3 class="title article-title">journée chez Juju Fashion</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/featured/erouane (3).jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                            </div>
+                            <h3 class="title article-title">Bord de Mer</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/featured/nguema (11).jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                            </div>
+                            <h3 class="title article-title">Reconciliation</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/featured/nguema (6).jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>29 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                                <span>&#10084</span>
+                            </div>
+                            <h3 class="title article-title">Chez Juju Fashion</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Meilleures souvenirs</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Job</span>
+                    <img src="./assets/images/featured/nguema (5).jpeg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Plage</span>
+                    <img src="./assets/images/featured/nguema (1).jpeg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Job</span>
+                    <img src="./assets/images/featured/nguema (8).jpeg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Sweet moments</span>
+                    <img src="./assets/images/featured/erouane (3).jpeg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Wife</span>
+                    <img src="./assets/images/featured/nguema (10).jpeg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Playa</span>
+                    <img src="./assets/images/featured/erouane (2).jpeg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Abonnes toi</h6>
+                <p class="newsletter-description">Si tu apprecies ce mini blog, envoies moi un email.</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Entres ton mail Ici">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
